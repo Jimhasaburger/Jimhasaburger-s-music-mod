@@ -1,4 +1,5 @@
 ### jimhasaburger's music mod
+https://modrinth.com/mod/jimhasaburgers-music-mod
 this mod adds music discs to minecraft. please do not use the first version.
 
 
