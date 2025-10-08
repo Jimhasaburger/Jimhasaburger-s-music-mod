@@ -1,0 +1,3 @@
+v1	named	intermediary
+FIELD	net/jimhasaburger/jimhasaburgersmusicmod/mixin/LivingEntityMixin	I	lastHurtByPlayerMemoryTime	field_6238
+METHOD	net/jimhasaburger/jimhasaburgersmusicmod/mixin/LivingEntityMixin	()Z	isAlwaysExperienceDropper	method_6071

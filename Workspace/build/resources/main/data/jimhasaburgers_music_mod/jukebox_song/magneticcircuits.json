@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.jimhasaburgers_music_mod.magneticcircuits.desc"
+  },
+  "length_in_seconds": 120,
+  "sound_event": "jimhasaburgers_music_mod:calm4.ogg"
+}

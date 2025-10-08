@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.jimhasaburgers_music_mod.stereomadness.desc"
+  },
+  "length_in_seconds": 86,
+  "sound_event": "jimhasaburgers_music_mod:stereo_madness_audio"
+}

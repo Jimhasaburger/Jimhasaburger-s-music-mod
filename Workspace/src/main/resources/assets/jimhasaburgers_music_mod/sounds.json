@@ -1,0 +1,20 @@
+{
+  "calm4.ogg": {
+    "subtitle": "subtitles.calm4.ogg",
+    "sounds": [
+      {
+        "name": "jimhasaburgers_music_mod:minecraft-calm4note-blocks-tuberippercom_25bbwpat",
+        "stream": true
+      }
+    ]
+  },
+  "stereo_madness_audio": {
+    "subtitle": "subtitles.stereo_madness_audio",
+    "sounds": [
+      {
+        "name": "jimhasaburgers_music_mod:stereo_madness",
+        "stream": true
+      }
+    ]
+  }
+}

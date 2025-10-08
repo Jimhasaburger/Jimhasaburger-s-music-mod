@@ -1,0 +1,80 @@
+{
+  "mappings": {
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/BlockItemMixin": {
+      "useOn": "Lnet/minecraft/class_1747;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/BoneMealItemMixin": {
+      "useOn": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/CommandsMixin": {
+      "performCommand": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ExperienceOrbMixin": {
+      "playerTouch": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ItemStackMixin": {
+      "useOn": "Lnet/minecraft/class_1799;method_7981(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/LivingEntityMixin": {
+      "applyItemBlocking": "Lnet/minecraft/class_1309;method_67346(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)F",
+      "causeFallDamage": "Lnet/minecraft/class_1309;method_5747(DFLnet/minecraft/class_1282;)Z",
+      "dropExperience": "Lnet/minecraft/class_1309;method_23883(Lnet/minecraft/class_3218;Lnet/minecraft/class_1297;)V",
+      "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V",
+      "jumpFromGround": "Lnet/minecraft/class_1309;method_6043()V",
+      "onItemPickup": "Lnet/minecraft/class_1309;method_29499(Lnet/minecraft/class_1542;)V",
+      "startUsingItem(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V",
+      "swing(Lnet/minecraft/world/InteractionHand;Z)V": "Lnet/minecraft/class_1309;method_23667(Lnet/minecraft/class_1268;Z)V"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/PlayerMixin": {
+      "giveExperienceLevels": "Lnet/minecraft/class_1657;method_7316(I)V",
+      "giveExperiencePoints": "Lnet/minecraft/class_1657;method_7255(I)V",
+      "tick": "Lnet/minecraft/class_1657;method_5773()V"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/RepairItemRecipeMixin": {
+      "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;"
+    },
+    "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ServerPlayerMixin": {
+      "Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/BlockItemMixin": {
+        "useOn": "Lnet/minecraft/class_1747;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/BoneMealItemMixin": {
+        "useOn": "Lnet/minecraft/class_1752;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/CommandsMixin": {
+        "performCommand": "Lnet/minecraft/class_2170;method_9249(Lcom/mojang/brigadier/ParseResults;Ljava/lang/String;)V"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ExperienceOrbMixin": {
+        "playerTouch": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ItemStackMixin": {
+        "useOn": "Lnet/minecraft/class_1799;method_7981(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/LivingEntityMixin": {
+        "applyItemBlocking": "Lnet/minecraft/class_1309;method_67346(Lnet/minecraft/class_3218;Lnet/minecraft/class_1282;F)F",
+        "causeFallDamage": "Lnet/minecraft/class_1309;method_5747(DFLnet/minecraft/class_1282;)Z",
+        "dropExperience": "Lnet/minecraft/class_1309;method_23883(Lnet/minecraft/class_3218;Lnet/minecraft/class_1297;)V",
+        "heal(F)V": "Lnet/minecraft/class_1309;method_6025(F)V",
+        "jumpFromGround": "Lnet/minecraft/class_1309;method_6043()V",
+        "onItemPickup": "Lnet/minecraft/class_1309;method_29499(Lnet/minecraft/class_1542;)V",
+        "startUsingItem(Lnet/minecraft/world/InteractionHand;)V": "Lnet/minecraft/class_1309;method_6019(Lnet/minecraft/class_1268;)V",
+        "swing(Lnet/minecraft/world/InteractionHand;Z)V": "Lnet/minecraft/class_1309;method_23667(Lnet/minecraft/class_1268;Z)V"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/PlayerMixin": {
+        "giveExperienceLevels": "Lnet/minecraft/class_1657;method_7316(I)V",
+        "giveExperiencePoints": "Lnet/minecraft/class_1657;method_7255(I)V",
+        "tick": "Lnet/minecraft/class_1657;method_5773()V"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/RepairItemRecipeMixin": {
+        "assemble": "Lnet/minecraft/class_4317;method_20807(Lnet/minecraft/class_9694;Lnet/minecraft/class_7225$class_7874;)Lnet/minecraft/class_1799;"
+      },
+      "net/jimhasaburger/jimhasaburgersmusicmod/mixin/ServerPlayerMixin": {
+        "Lnet/minecraft/server/level/ServerPlayer;drop(Z)Z": "Lnet/minecraft/class_3222;method_37413(Z)Z"
+      }
+    }
+  }
+}
