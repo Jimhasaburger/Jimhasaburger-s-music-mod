@@ -22,3 +22,7 @@ you can find the music discs in a new creative tab
 ### other not needed info
 this mod is not made well.
 it was made in MCREATOR
+
+
+### credits:
+[link](CREDITS.md)
